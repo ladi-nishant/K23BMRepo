@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Dishes of India</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            text-align: center;
+            background-color: #ff6f61;
+            color: white;
+            padding: 1rem 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 1rem;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+        .item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 1rem;
+        }
+        .item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .item p {
+            margin-top: 1rem;
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+        .row {
+            display: grid;
+            gap: 1.5rem;
+        }
+        .row-2 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .row-3 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Famous Dishes of India</h1>
+    </header>
+
+    <div class="container">
+        <!-- Row 1: Full Width -->
+        <div class="item">
+            <img src="images/Chicken-Biryani-Recipe.jpg" alt="Biryani">
+            <h2>Biryani</h2>
+            
+        </div>
+
+        <!-- Row 2: Three Items -->
+        <div class="row row-2">
+            <div class="item">
+                <img src="images\butter-chicken-ac2ff98.jpg" alt="Butter Chicken">
+                <h2>Butter Chicken</h2>
+            </div>
+            <div class="item">
+                <img src="images\images.jpg" alt="Masala Dosa">
+                <h2>Masala Dosa</h2>
+            </div>
+            <div class="item">
+                <img src="images\images (1).jpg" alt="Paneer Tikka">
+                <h2>Paneer Tikka</h2>
+            </div>
+        </div>
+
+        <!-- Row 3: Two Items -->
+        <div class="row row-3">
+            <div class="item">
+                <img src="images\images (2).jpg" alt="Gulab Jamun">
+                <h2>Gulab Jamun</h2>
+            </div>
+            <div class="item">
+                <img src="images\tandoor.jpg" alt="Tandoori Chicken">
+                <h2>Tandoori Chicken</h2>
+            </div>
+        </div>
+        <div class="row row-4">
+            <p>Biryani is a flavorful and aromatic rice dish that blends perfectly spiced basmati rice with tender meat or vegetables. Originating in the Indian subcontinent, it is a symbol of celebration and indulgence.</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
